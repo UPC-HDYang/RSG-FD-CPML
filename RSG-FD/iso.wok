@@ -1,0 +1,15 @@
+!parfile for isomodel
+!nx,ny,nz,nt,dx(m),dy,dz(m,dz==dx),dt(s), ib
+807 807 1030 1 1 2e-04
+!np,npj(the thin of CPML np+npj),vmax,r,chi0,a0
+5 3000.0 1.0e-6 1 1420000 
+!f0(dominant frequency),iw(0 rick,1 gau),dst,iwav,power_display,cutvect
+1420000.0 2 25 2 0.3 0.01
+!xs,ys,zs
+404 404
+!nr,fxr,fyr,fzr,dxr,dyr,dzr	(all in grid)
+800 4 400 1 0
+!ifs(shangxiabinjie),fslc(ifs=1,free surface),ifa(zuoyoubianjie),ifb
+1 2 1
+!sl (1 baozhayuan 2 dianlidianyuan 3 jianqieyuan)
+2
